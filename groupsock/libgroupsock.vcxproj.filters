@@ -37,4 +37,33 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GroupEId.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Groupsock.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\groupsock_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupsockHelper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IOHandlers.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetAddress.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TunnelEncaps.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

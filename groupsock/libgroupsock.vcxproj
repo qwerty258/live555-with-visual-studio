@@ -27,6 +27,17 @@
     <ClCompile Include="NetAddress.cpp" />
     <ClCompile Include="NetInterface.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GroupEId.hh" />
+    <ClInclude Include="include\Groupsock.hh" />
+    <ClInclude Include="include\GroupsockHelper.hh" />
+    <ClInclude Include="include\groupsock_version.hh" />
+    <ClInclude Include="include\IOHandlers.hh" />
+    <ClInclude Include="include\NetAddress.hh" />
+    <ClInclude Include="include\NetCommon.h" />
+    <ClInclude Include="include\NetInterface.hh" />
+    <ClInclude Include="include\TunnelEncaps.hh" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

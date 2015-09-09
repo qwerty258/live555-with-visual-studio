@@ -23,6 +23,13 @@
     <ClCompile Include="strDup.cpp" />
     <ClCompile Include="UsageEnvironment.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Boolean.hh" />
+    <ClInclude Include="include\HashTable.hh" />
+    <ClInclude Include="include\strDup.hh" />
+    <ClInclude Include="include\UsageEnvironment.hh" />
+    <ClInclude Include="include\UsageEnvironment_version.hh" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1DB69D56-1648-4542-879E-9644C9A13A52}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

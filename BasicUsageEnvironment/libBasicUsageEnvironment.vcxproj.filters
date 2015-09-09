@@ -34,4 +34,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BasicHashTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicUsageEnvironment.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicUsageEnvironment_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicUsageEnvironment0.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DelayQueue.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HandlerSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

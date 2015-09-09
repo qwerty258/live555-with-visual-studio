@@ -26,6 +26,14 @@
     <ClCompile Include="BasicUsageEnvironment0.cpp" />
     <ClCompile Include="DelayQueue.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BasicHashTable.hh" />
+    <ClInclude Include="include\BasicUsageEnvironment.hh" />
+    <ClInclude Include="include\BasicUsageEnvironment0.hh" />
+    <ClInclude Include="include\BasicUsageEnvironment_version.hh" />
+    <ClInclude Include="include\DelayQueue.hh" />
+    <ClInclude Include="include\HandlerSet.hh" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0D6841BC-FA9D-49B9-8FB2-69FD67E19191}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
