@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HashTable.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\HashTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="strDup.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\strDup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UsageEnvironment.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\UsageEnvironment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Boolean.hh">
+    <ClInclude Include="..\live\UsageEnvironment\include\Boolean.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\HashTable.hh">
+    <ClInclude Include="..\live\UsageEnvironment\include\HashTable.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\strDup.hh">
+    <ClInclude Include="..\live\UsageEnvironment\include\strDup.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\UsageEnvironment.hh">
+    <ClInclude Include="..\live\UsageEnvironment\include\UsageEnvironment.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\UsageEnvironment_version.hh">
+    <ClInclude Include="..\live\UsageEnvironment\include\UsageEnvironment_version.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

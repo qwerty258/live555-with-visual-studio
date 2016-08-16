@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicRTSPServer.cpp">
+    <ClCompile Include="..\live\mediaServer\DynamicRTSPServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="live555MediaServer.cpp">
+    <ClCompile Include="..\live\mediaServer\live555MediaServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="version.hh">
+    <ClInclude Include="..\live\mediaServer\DynamicRTSPServer.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DynamicRTSPServer.hh">
+    <ClInclude Include="..\live\mediaServer\version.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

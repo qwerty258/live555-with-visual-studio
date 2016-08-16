@@ -19,24 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GroupEId.cpp" />
-    <ClCompile Include="Groupsock.cpp" />
-    <ClCompile Include="GroupsockHelper.cpp" />
-    <ClCompile Include="inet.c" />
-    <ClCompile Include="IOHandlers.cpp" />
-    <ClCompile Include="NetAddress.cpp" />
-    <ClCompile Include="NetInterface.cpp" />
+    <ClCompile Include="..\live\groupsock\GroupEId.cpp" />
+    <ClCompile Include="..\live\groupsock\Groupsock.cpp" />
+    <ClCompile Include="..\live\groupsock\GroupsockHelper.cpp" />
+    <ClCompile Include="..\live\groupsock\inet.c" />
+    <ClCompile Include="..\live\groupsock\IOHandlers.cpp" />
+    <ClCompile Include="..\live\groupsock\NetAddress.cpp" />
+    <ClCompile Include="..\live\groupsock\NetInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\GroupEId.hh" />
-    <ClInclude Include="include\Groupsock.hh" />
-    <ClInclude Include="include\GroupsockHelper.hh" />
-    <ClInclude Include="include\groupsock_version.hh" />
-    <ClInclude Include="include\IOHandlers.hh" />
-    <ClInclude Include="include\NetAddress.hh" />
-    <ClInclude Include="include\NetCommon.h" />
-    <ClInclude Include="include\NetInterface.hh" />
-    <ClInclude Include="include\TunnelEncaps.hh" />
+    <ClInclude Include="..\live\groupsock\include\GroupEId.hh" />
+    <ClInclude Include="..\live\groupsock\include\Groupsock.hh" />
+    <ClInclude Include="..\live\groupsock\include\GroupsockHelper.hh" />
+    <ClInclude Include="..\live\groupsock\include\groupsock_version.hh" />
+    <ClInclude Include="..\live\groupsock\include\IOHandlers.hh" />
+    <ClInclude Include="..\live\groupsock\include\NetAddress.hh" />
+    <ClInclude Include="..\live\groupsock\include\NetCommon.h" />
+    <ClInclude Include="..\live\groupsock\include\NetInterface.hh" />
+    <ClInclude Include="..\live\groupsock\include\TunnelEncaps.hh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}</ProjectGuid>
@@ -86,7 +86,22 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Build\$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Build\$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(VisualStudioVersion)\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -94,7 +109,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)UsageEnvironment\include;$(ProjectDIr)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -124,7 +139,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)UsageEnvironment\include;$(ProjectDIr)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -155,7 +170,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)UsageEnvironment\include;$(ProjectDIr)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
@@ -187,7 +202,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)UsageEnvironment\include;$(ProjectDIr)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>

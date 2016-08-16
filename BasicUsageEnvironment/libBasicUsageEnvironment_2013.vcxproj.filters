@@ -15,42 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicHashTable.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicHashTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicTaskScheduler.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicTaskScheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicTaskScheduler0.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicUsageEnvironment.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicUsageEnvironment0.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DelayQueue.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\DelayQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\BasicHashTable.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\BasicHashTable.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\BasicUsageEnvironment.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\BasicUsageEnvironment.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\BasicUsageEnvironment_version.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\BasicUsageEnvironment_version.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\BasicUsageEnvironment0.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\BasicUsageEnvironment0.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\DelayQueue.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\DelayQueue.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\HandlerSet.hh">
+    <ClInclude Include="..\live\BasicUsageEnvironment\include\HandlerSet.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

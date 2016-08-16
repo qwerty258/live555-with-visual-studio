@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libBasicUsageEnvironment", "BasicUsageEnvironment\libBasicUsageEnvironment.vcxproj", "{0D6841BC-FA9D-49B9-8FB2-69FD67E19191}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libBasicUsageEnvironment_2013", "BasicUsageEnvironment\libBasicUsageEnvironment_2013.vcxproj", "{0D6841BC-FA9D-49B9-8FB2-69FD67E19191}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libgroupsock", "groupsock\libgroupsock.vcxproj", "{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libgroupsock_2013", "groupsock\libgroupsock_2013.vcxproj", "{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libliveMedia", "liveMedia\libliveMedia.vcxproj", "{51377A3B-77A5-4C2F-B141-4E45567ADD91}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libliveMedia_2013", "liveMedia\libliveMedia_2013.vcxproj", "{51377A3B-77A5-4C2F-B141-4E45567ADD91}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555MediaServer", "mediaServer\live555MediaServer.vcxproj", "{50736473-5304-49EE-B9E1-BFF93E7FDC12}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555MediaServer_2013", "mediaServer\live555MediaServer_2013.vcxproj", "{50736473-5304-49EE-B9E1-BFF93E7FDC12}"
 	ProjectSection(ProjectDependencies) = postProject
 		{54A35632-53D6-4A78-9B61-6BFC1C1A13BA} = {54A35632-53D6-4A78-9B61-6BFC1C1A13BA}
 		{51377A3B-77A5-4C2F-B141-4E45567ADD91} = {51377A3B-77A5-4C2F-B141-4E45567ADD91}
@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555MediaServer", "media
 		{0D6841BC-FA9D-49B9-8FB2-69FD67E19191} = {0D6841BC-FA9D-49B9-8FB2-69FD67E19191}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555ProxyServer", "proxyServer\live555ProxyServer.vcxproj", "{DCBAF2B1-D0C6-40FC-9574-AC8A484B2F6D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555ProxyServer_2013", "proxyServer\live555ProxyServer_2013.vcxproj", "{DCBAF2B1-D0C6-40FC-9574-AC8A484B2F6D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{54A35632-53D6-4A78-9B61-6BFC1C1A13BA} = {54A35632-53D6-4A78-9B61-6BFC1C1A13BA}
 		{51377A3B-77A5-4C2F-B141-4E45567ADD91} = {51377A3B-77A5-4C2F-B141-4E45567ADD91}
@@ -25,15 +25,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555ProxyServer", "proxy
 		{0D6841BC-FA9D-49B9-8FB2-69FD67E19191} = {0D6841BC-FA9D-49B9-8FB2-69FD67E19191}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libUsageEnvironment", "UsageEnvironment\libUsageEnvironment.vcxproj", "{1DB69D56-1648-4542-879E-9644C9A13A52}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openRTSP", "testProgs\openRTSP.vcxproj", "{006351ED-80A6-459D-905C-E2C84E1AF569}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openRTSP_2013", "testProgs\openRTSP_2013.vcxproj", "{006351ED-80A6-459D-905C-E2C84E1AF569}"
 	ProjectSection(ProjectDependencies) = postProject
 		{54A35632-53D6-4A78-9B61-6BFC1C1A13BA} = {54A35632-53D6-4A78-9B61-6BFC1C1A13BA}
 		{51377A3B-77A5-4C2F-B141-4E45567ADD91} = {51377A3B-77A5-4C2F-B141-4E45567ADD91}
 		{1DB69D56-1648-4542-879E-9644C9A13A52} = {1DB69D56-1648-4542-879E-9644C9A13A52}
 		{0D6841BC-FA9D-49B9-8FB2-69FD67E19191} = {0D6841BC-FA9D-49B9-8FB2-69FD67E19191}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libUsageEnvironment_2013", "UsageEnvironment\libUsageEnvironment_2013.vcxproj", "{1DB69D56-1648-4542-879E-9644C9A13A52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,14 +83,6 @@ Global
 		{DCBAF2B1-D0C6-40FC-9574-AC8A484B2F6D}.Release|Win32.Build.0 = Release|Win32
 		{DCBAF2B1-D0C6-40FC-9574-AC8A484B2F6D}.Release|x64.ActiveCfg = Release|x64
 		{DCBAF2B1-D0C6-40FC-9574-AC8A484B2F6D}.Release|x64.Build.0 = Release|x64
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|Win32.ActiveCfg = Debug|Win32
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|Win32.Build.0 = Debug|Win32
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|x64.ActiveCfg = Debug|x64
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|x64.Build.0 = Debug|x64
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|Win32.ActiveCfg = Release|Win32
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|Win32.Build.0 = Release|Win32
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|x64.ActiveCfg = Release|x64
-		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|x64.Build.0 = Release|x64
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Debug|Win32.ActiveCfg = Debug|Win32
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Debug|Win32.Build.0 = Debug|Win32
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Debug|x64.ActiveCfg = Debug|x64
@@ -99,6 +91,14 @@ Global
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Release|Win32.Build.0 = Release|Win32
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Release|x64.ActiveCfg = Release|x64
 		{006351ED-80A6-459D-905C-E2C84E1AF569}.Release|x64.Build.0 = Release|x64
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|Win32.Build.0 = Debug|Win32
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|x64.ActiveCfg = Debug|x64
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Debug|x64.Build.0 = Debug|x64
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|Win32.ActiveCfg = Release|Win32
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|Win32.Build.0 = Release|Win32
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|x64.ActiveCfg = Release|x64
+		{1DB69D56-1648-4542-879E-9644C9A13A52}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
