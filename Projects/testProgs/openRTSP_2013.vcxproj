@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\live\testProgs\openRTSP.cpp" />
-    <ClCompile Include="..\live\testProgs\playCommon.cpp" />
+    <ClCompile Include="..\..\live\testProgs\openRTSP.cpp" />
+    <ClCompile Include="..\..\live\testProgs\playCommon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\live\testProgs\playCommon.hh" />
+    <ClInclude Include="..\..\live\testProgs\playCommon.hh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{006351ED-80A6-459D-905C-E2C84E1AF569}</ProjectGuid>

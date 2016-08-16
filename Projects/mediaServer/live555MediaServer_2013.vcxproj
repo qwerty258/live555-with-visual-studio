@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\live\mediaServer\DynamicRTSPServer.cpp" />
-    <ClCompile Include="..\live\mediaServer\live555MediaServer.cpp" />
+    <ClCompile Include="..\..\live\mediaServer\DynamicRTSPServer.cpp" />
+    <ClCompile Include="..\..\live\mediaServer\live555MediaServer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\live\mediaServer\DynamicRTSPServer.hh" />
-    <ClInclude Include="..\live\mediaServer\version.hh" />
+    <ClInclude Include="..\..\live\mediaServer\DynamicRTSPServer.hh" />
+    <ClInclude Include="..\..\live\mediaServer\version.hh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{50736473-5304-49EE-B9E1-BFF93E7FDC12}</ProjectGuid>

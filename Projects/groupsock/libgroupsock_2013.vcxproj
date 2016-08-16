@@ -19,24 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\live\groupsock\GroupEId.cpp" />
-    <ClCompile Include="..\live\groupsock\Groupsock.cpp" />
-    <ClCompile Include="..\live\groupsock\GroupsockHelper.cpp" />
-    <ClCompile Include="..\live\groupsock\inet.c" />
-    <ClCompile Include="..\live\groupsock\IOHandlers.cpp" />
-    <ClCompile Include="..\live\groupsock\NetAddress.cpp" />
-    <ClCompile Include="..\live\groupsock\NetInterface.cpp" />
+    <ClCompile Include="..\..\live\groupsock\GroupEId.cpp" />
+    <ClCompile Include="..\..\live\groupsock\Groupsock.cpp" />
+    <ClCompile Include="..\..\live\groupsock\GroupsockHelper.cpp" />
+    <ClCompile Include="..\..\live\groupsock\inet.c" />
+    <ClCompile Include="..\..\live\groupsock\IOHandlers.cpp" />
+    <ClCompile Include="..\..\live\groupsock\NetAddress.cpp" />
+    <ClCompile Include="..\..\live\groupsock\NetInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\live\groupsock\include\GroupEId.hh" />
-    <ClInclude Include="..\live\groupsock\include\Groupsock.hh" />
-    <ClInclude Include="..\live\groupsock\include\GroupsockHelper.hh" />
-    <ClInclude Include="..\live\groupsock\include\groupsock_version.hh" />
-    <ClInclude Include="..\live\groupsock\include\IOHandlers.hh" />
-    <ClInclude Include="..\live\groupsock\include\NetAddress.hh" />
-    <ClInclude Include="..\live\groupsock\include\NetCommon.h" />
-    <ClInclude Include="..\live\groupsock\include\NetInterface.hh" />
-    <ClInclude Include="..\live\groupsock\include\TunnelEncaps.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\GroupEId.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\Groupsock.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\GroupsockHelper.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\groupsock_version.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\IOHandlers.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\NetAddress.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\NetCommon.h" />
+    <ClInclude Include="..\..\live\groupsock\include\NetInterface.hh" />
+    <ClInclude Include="..\..\live\groupsock\include\TunnelEncaps.hh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}</ProjectGuid>
