@@ -119,6 +119,7 @@
     <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoStreamFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2IndexFromTransportStream.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamAccumulator.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromESSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromPESSource.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="..\..\live\liveMedia\RTSPCommon.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTSPRegisterSender.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTSPServer.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\RTSPServerRegister.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTSPServerSupportingHTTPStreaming.cpp" />
     <ClCompile Include="..\..\live\liveMedia\ServerMediaSession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\SimpleRTPSink.cpp" />
@@ -280,6 +282,7 @@
     <ClInclude Include="..\..\live\liveMedia\include\MPEG1or2VideoStreamFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2IndexFromTransportStream.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamAccumulator.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFromESSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFromPESSource.hh" />

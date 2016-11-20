@@ -510,6 +510,12 @@
     <ClCompile Include="..\..\live\liveMedia\WAVAudioFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamAccumulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPServerRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\live\liveMedia\EBMLNumber.hh">
@@ -1011,6 +1017,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\live\liveMedia\include\WAVAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamAccumulator.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
