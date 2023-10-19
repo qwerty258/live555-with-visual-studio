@@ -8,8 +8,6 @@ live555-with-visual-studio/
                     |
                     +-----.git/
                     |
-                    +-----Build/
-                    |
                     +-----live/
                     |
                     +-----Projects/
