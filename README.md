@@ -4,7 +4,7 @@ The live555 visual studio project file. You can open it in VS by double clicking
 This repo only contain project and sloution files, please copy the source code folder "live" to this repo's root dir.
 
 ```
-live555_with_visual_studio/
+live555-with-visual-studio/
                     |
                     +-----.git/
                     |
