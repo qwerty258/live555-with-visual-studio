@@ -444,9 +444,6 @@
     <ClCompile Include="..\..\live\liveMedia\RTSPServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\live\liveMedia\ServerMediaSession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -466,9 +463,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\live\liveMedia\T140TextRTPSink.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\live\liveMedia\TCPStreamSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\live\liveMedia\TextRTPSink.cpp">
@@ -514,6 +508,54 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\live\liveMedia\RTSPServerRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ADTSAudioStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\HLSSegmenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\HMAC_SHA1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\JPEG2000VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\JPEG2000VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MIKEY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamDemux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_PAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_PMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_STREAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RawVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RawVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\SRTPCryptographicContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\TLSState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -956,9 +998,6 @@
     <ClInclude Include="..\..\live\liveMedia\include\RTSPServer.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\live\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\live\liveMedia\include\ServerMediaSession.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -975,9 +1014,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\live\liveMedia\include\T140TextRTPSink.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\live\liveMedia\include\TCPStreamSink.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\live\liveMedia\include\TextRTPSink.hh">
@@ -1020,6 +1056,51 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamAccumulator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MPEG2TransportStreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MPEG2TransportStreamDemuxedTrack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\ADTSAudioStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\HLSSegmenter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\HMAC_hash.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\HMAC_SHA1.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\JPEG2000VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\JPEG2000VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\MIKEY.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoFrameParameters.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\SRTPCryptographicContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\include\TLSState.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

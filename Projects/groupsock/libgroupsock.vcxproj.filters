@@ -62,8 +62,5 @@
     <ClInclude Include="..\..\live\groupsock\include\NetInterface.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\live\groupsock\include\TunnelEncaps.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

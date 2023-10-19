@@ -10,11 +10,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\live\testProgs\openRTSP.cpp" />
+    <ClCompile Include="..\..\live\testProgs\playCommon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\live\testProgs\playCommon.hh" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D1734AE0-18FB-495E-8278-AE3223F6D57C}</ProjectGuid>
+    <ProjectGuid>{006351ED-80A6-459D-905C-E2C84E1AF569}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>testRTSPClient_2013</RootNamespace>
-    <ProjectName>testRTSPClient</ProjectName>
+    <RootNamespace>openRTSP</RootNamespace>
+    <ProjectName>openRTSP</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -25,7 +33,6 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -43,29 +50,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
-      <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\BasicUsageEnvironment\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\groupsock\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libBasicUsageEnvironment.lib;libgroupsock.lib;libliveMedia.lib;libUsageEnvironment.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\BasicUsageEnvironment\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\groupsock\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libBasicUsageEnvironment.lib;libgroupsock.lib;libliveMedia.lib;libUsageEnvironment.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\live\testProgs\testRTSPClient.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -28,7 +28,6 @@
     <ClInclude Include="..\..\live\groupsock\include\NetAddress.hh" />
     <ClInclude Include="..\..\live\groupsock\include\NetCommon.h" />
     <ClInclude Include="..\..\live\groupsock\include\NetInterface.hh" />
-    <ClInclude Include="..\..\live\groupsock\include\TunnelEncaps.hh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{54A35632-53D6-4A78-9B61-6BFC1C1A13BA}</ProjectGuid>
@@ -66,6 +65,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PreprocessorDefinitions>NO_GETIFADDRS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -80,6 +80,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PreprocessorDefinitions>NO_GETIFADDRS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

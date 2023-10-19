@@ -54,6 +54,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\groupsock\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <AdditionalDependencies>libBasicUsageEnvironment.lib;libgroupsock.lib;libliveMedia.lib;libUsageEnvironment.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -66,6 +67,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\groupsock\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <AdditionalDependencies>libBasicUsageEnvironment.lib;libgroupsock.lib;libliveMedia.lib;libUsageEnvironment.lib;%(AdditionalDependencies)</AdditionalDependencies>

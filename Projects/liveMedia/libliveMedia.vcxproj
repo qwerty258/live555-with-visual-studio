@@ -17,6 +17,7 @@
     <ClCompile Include="..\..\live\liveMedia\AC3AudioStreamFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\ADTSAudioFileServerMediaSubsession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\ADTSAudioFileSource.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\ADTSAudioStreamDiscreteFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\AMRAudioFileServerMediaSubsession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\AMRAudioFileSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\AMRAudioFileSource.cpp" />
@@ -69,7 +70,11 @@
     <ClCompile Include="..\..\live\liveMedia\H265VideoRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\H265VideoStreamDiscreteFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\H265VideoStreamFramer.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\HLSSegmenter.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\HMAC_SHA1.cpp" />
     <ClCompile Include="..\..\live\liveMedia\InputFile.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\JPEG2000VideoRTPSink.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\JPEG2000VideoRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\JPEGVideoRTPSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\JPEGVideoRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\JPEGVideoSource.cpp" />
@@ -83,6 +88,7 @@
     <ClCompile Include="..\..\live\liveMedia\MediaSession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MediaSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MediaSource.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MIKEY.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MP3ADU.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MP3ADUdescriptor.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MP3ADUinterleaving.cpp" />
@@ -112,11 +118,17 @@
     <ClCompile Include="..\..\live\liveMedia\MPEG2IndexFromTransportStream.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamAccumulator.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamDemux.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFramer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromESSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromPESSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamIndexFile.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamMultiplexor.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_PAT.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_PMT.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamParser_STREAM.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\MPEG4ESVideoRTPSink.cpp" />
@@ -146,6 +158,8 @@
     <ClCompile Include="..\..\live\liveMedia\QCELPAudioRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\QuickTimeFileSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\QuickTimeGenericRTPSource.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\RawVideoRTPSink.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\RawVideoRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTCP.cpp" />
     <ClCompile Include="..\..\live\liveMedia\rtcp_from_spec.c" />
     <ClCompile Include="..\..\live\liveMedia\RTPInterface.cpp" />
@@ -156,18 +170,18 @@
     <ClCompile Include="..\..\live\liveMedia\RTSPRegisterSender.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTSPServer.cpp" />
     <ClCompile Include="..\..\live\liveMedia\RTSPServerRegister.cpp" />
-    <ClCompile Include="..\..\live\liveMedia\RTSPServerSupportingHTTPStreaming.cpp" />
     <ClCompile Include="..\..\live\liveMedia\ServerMediaSession.cpp" />
     <ClCompile Include="..\..\live\liveMedia\SimpleRTPSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\SimpleRTPSource.cpp" />
     <ClCompile Include="..\..\live\liveMedia\SIPClient.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\SRTPCryptographicContext.cpp" />
     <ClCompile Include="..\..\live\liveMedia\StreamParser.cpp" />
     <ClCompile Include="..\..\live\liveMedia\StreamReplicator.cpp" />
     <ClCompile Include="..\..\live\liveMedia\T140TextRTPSink.cpp" />
-    <ClCompile Include="..\..\live\liveMedia\TCPStreamSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\TextRTPSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\TheoraVideoRTPSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\TheoraVideoRTPSource.cpp" />
+    <ClCompile Include="..\..\live\liveMedia\TLSState.cpp" />
     <ClCompile Include="..\..\live\liveMedia\uLawAudioFilter.cpp" />
     <ClCompile Include="..\..\live\liveMedia\VideoRTPSink.cpp" />
     <ClCompile Include="..\..\live\liveMedia\VorbisAudioRTPSink.cpp" />
@@ -188,6 +202,7 @@
     <ClInclude Include="..\..\live\liveMedia\include\AC3AudioStreamFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\ADTSAudioFileSource.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\ADTSAudioStreamDiscreteFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\AMRAudioFileServerMediaSubsession.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\AMRAudioFileSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\AMRAudioFileSource.hh" />
@@ -238,7 +253,12 @@
     <ClInclude Include="..\..\live\liveMedia\include\H265VideoRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\H265VideoStreamDiscreteFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\H265VideoStreamFramer.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\HLSSegmenter.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\HMAC_hash.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\HMAC_SHA1.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\InputFile.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\JPEG2000VideoRTPSink.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\JPEG2000VideoRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\JPEGVideoRTPSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\JPEGVideoRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\JPEGVideoSource.hh" />
@@ -252,6 +272,7 @@
     <ClInclude Include="..\..\live\liveMedia\include\MediaSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MediaSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MediaTranscodingTable.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\MIKEY.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MP3ADU.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MP3ADUinterleaving.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MP3ADURTPSink.hh" />
@@ -275,6 +296,7 @@
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2IndexFromTransportStream.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamAccumulator.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamDemux.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFramer.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFromESSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\MPEG2TransportStreamFromPESSource.hh" />
@@ -305,6 +327,9 @@
     <ClInclude Include="..\..\live\liveMedia\include\QCELPAudioRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\QuickTimeFileSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\QuickTimeGenericRTPSource.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoFrameParameters.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoRTPSink.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\RawVideoRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\RTCP.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\RTPInterface.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\RTPSink.hh" />
@@ -313,17 +338,17 @@
     <ClInclude Include="..\..\live\liveMedia\include\RTSPCommon.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\RTSPRegisterSender.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\RTSPServer.hh" />
-    <ClInclude Include="..\..\live\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\ServerMediaSession.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\SimpleRTPSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\SimpleRTPSource.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\SIPClient.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\SRTPCryptographicContext.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\StreamReplicator.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\T140TextRTPSink.hh" />
-    <ClInclude Include="..\..\live\liveMedia\include\TCPStreamSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\TextRTPSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\TheoraVideoRTPSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\TheoraVideoRTPSource.hh" />
+    <ClInclude Include="..\..\live\liveMedia\include\TLSState.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\uLawAudioFilter.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\VideoRTPSink.hh" />
     <ClInclude Include="..\..\live\liveMedia\include\VorbisAudioRTPSink.hh" />
@@ -342,6 +367,8 @@
     <ClInclude Include="..\..\live\liveMedia\MP3Internals.hh" />
     <ClInclude Include="..\..\live\liveMedia\MP3InternalsHuffman.hh" />
     <ClInclude Include="..\..\live\liveMedia\MP3StreamState.hh" />
+    <ClInclude Include="..\..\live\liveMedia\MPEG2TransportStreamDemuxedTrack.hh" />
+    <ClInclude Include="..\..\live\liveMedia\MPEG2TransportStreamParser.hh" />
     <ClInclude Include="..\..\live\liveMedia\MPEGVideoStreamParser.hh" />
     <ClInclude Include="..\..\live\liveMedia\OggDemuxedTrack.hh" />
     <ClInclude Include="..\..\live\liveMedia\OggFileParser.hh" />
@@ -385,6 +412,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -396,6 +424,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)live\liveMedia\include;$(SolutionDir)live\UsageEnvironment\include;$(SolutionDir)live\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
