@@ -15,5 +15,4 @@ live555-with-visual-studio/
                     +-----Projects/
 ```
 
-# More:
-Don't report BUGs to me, please visit their offical site.
+# **Use [vcpkg](https://github.com/microsoft/vcpkg) to get live555 libraries**
